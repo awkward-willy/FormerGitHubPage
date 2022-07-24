@@ -1,0 +1,35 @@
+body {
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem;
+  color: #EAEAEA;
+}
+main div.about {
+  flex: 3 1 500px;
+  padding: 2rem 0rem;
+}
+main div.about table tr {
+  transition: all 0.2s ease;
+}
+main div.about table tr td {
+  padding: 1rem 0rem;
+  font-size: 1.25rem;
+}
+main div.about table tr td ul {
+  list-style-type: none;
+}
+main div.about table tr td a {
+  color: #EAEAEA;
+  text-decoration: none;
+}
+main div.about table tr td a:hover {
+  text-decoration: underline;
+}
+main div.about table tr.content:hover {
+  background-color: #2C2F34;
+}/*# sourceMappingURL=about.css.map */
