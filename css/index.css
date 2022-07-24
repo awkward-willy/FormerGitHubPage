@@ -16,6 +16,7 @@ section.backImage h3 {
   font-size: 3.5rem;
   color: white;
   margin: 2rem 0rem;
+  font-family: "Dancing Script", cursive;
 }
 section.backImage button.start {
   background-color: #3bf0e5;
