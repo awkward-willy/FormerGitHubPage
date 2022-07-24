@@ -16,6 +16,10 @@ main div.about {
 main div.about table tr {
   transition: all 0.2s ease;
 }
+main div.about table tr.title {
+  color: #C4B598;
+  font-weight: bolder;
+}
 main div.about table tr td {
   padding: 1rem 1rem;
   font-size: 1.25rem;
