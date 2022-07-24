@@ -9,38 +9,66 @@ main {
   padding: 2rem;
   color: #EAEAEA;
 }
-main div.about {
+main section {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section div.about {
   flex: 3 1 500px;
   padding: 2rem 0rem;
 }
-main div.about table tr {
+main section div.about table tr {
   transition: all 0.2s ease;
 }
-main div.about table tr.title {
+main section div.about table tr.title {
   color: #C4B598;
   font-weight: bolder;
 }
-main div.about table tr td {
+main section div.about table tr td {
   padding: 1rem 1rem;
   font-size: 1.25rem;
 }
-main div.about table tr td ul {
+main section div.about table tr td ul {
   list-style-type: none;
 }
-main div.about table tr td a {
+main section div.about table tr td a {
   display: flex;
   color: #EAEAEA;
   text-decoration: none;
   align-items: center;
 }
-main div.about table tr td a img {
+main section div.about table tr td a img {
   width: 35px;
   height: 35px;
   margin-right: 1rem;
 }
-main div.about table tr td a:hover {
+main section div.about table tr td a:hover {
   text-decoration: underline;
 }
-main div.about table tr.content:hover {
+main section div.about table tr.content:hover {
   background-color: #2C2F34;
+}
+main section div.penguins {
+  flex: 2 1 300px;
+}
+main section div.penguins h2 {
+  text-align: center;
+}
+main section div.penguins section.avatars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section div.penguins section.avatars img {
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  main section div.penguins section.avatars img {
+    width: 30vw;
+    height: 30vw;
+  }
 }/*# sourceMappingURL=about.css.map */
