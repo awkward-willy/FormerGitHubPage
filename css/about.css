@@ -60,6 +60,7 @@ main section div.penguins section.avatars {
   justify-content: center;
 }
 main section div.penguins section.avatars img {
+  transition: all 0.2s ease;
   border-radius: 50%;
   width: 15vw;
   height: 15vw;
