@@ -14,28 +14,10 @@ section.backImage {
     text-align: center;
 
     h3 {
-      font-size: 3.5rem;
-      color: white;
-      margin: 2rem 0rem;
-      font-family: 'Dancing Script', cursive;
+        font-size: 3.5rem;
+        color: white;
+        margin: 2rem 0rem;
+        font-family: 'Dancing Script', cursive;
     }
 
-    button.start {
-      background-color: #3bf0e5;
-      padding: 0.75rem 1.5rem;
-      font-size: 1.5rem;
-      color: white;
-      border: none;
-      border-radius: 1rem;
-      cursor: pointer;
-    }
-
-    div.filter {
-      background-color: rgba(0, 0, 0, 0.2);
-      width: 100%;
-      min-height: 90vh;
-      position: absolute;
-      top: 0;
-      z-index: -1;
-    }
-  }
+}
