@@ -19,5 +19,12 @@ section.backImage {
         margin: 2rem 0rem;
         font-family: 'Dancing Script', cursive;
     }
+}
 
+@media screen and (max-width: 400px) {
+    section.backImage {
+        h3 {
+            font-size: 2rem;
+        }
+    }
 }
