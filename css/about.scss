@@ -24,8 +24,15 @@ main{
                 list-style-type: none;
               }
               a{
+                display: flex;
                 color: $textColor;
                 text-decoration: none;
+                align-items: center;
+                img{
+                  width: 35px;
+                  height: 35px;
+                  margin-right: 1rem;
+                }
                 &:hover{
                     text-decoration: underline;
                 }

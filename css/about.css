@@ -24,8 +24,15 @@ main div.about table tr td ul {
   list-style-type: none;
 }
 main div.about table tr td a {
+  display: flex;
   color: #EAEAEA;
   text-decoration: none;
+  align-items: center;
+}
+main div.about table tr td a img {
+  width: 35px;
+  height: 35px;
+  margin-right: 1rem;
 }
 main div.about table tr td a:hover {
   text-decoration: underline;
