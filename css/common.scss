@@ -5,6 +5,11 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 body{
     background-color: #414C56;
 }
@@ -52,5 +57,8 @@ footer{
                 }
             }
         }
+    }
+    .active{
+        text-decoration: none;
     }
 }
