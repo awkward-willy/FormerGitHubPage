@@ -65,6 +65,9 @@ main{
             width: 15vw;
             height: 15vw;
             margin: 2rem;
+            &:hover{
+              transform: scale(1.2);
+            }
           }
         }
       }

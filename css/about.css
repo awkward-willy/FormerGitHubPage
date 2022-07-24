@@ -65,6 +65,9 @@ main section div.penguins section.avatars img {
   height: 15vw;
   margin: 2rem;
 }
+main section div.penguins section.avatars img:hover {
+  transform: scale(1.2);
+}
 
 @media screen and (max-width: 800px) {
   main section div.penguins section.avatars img {
