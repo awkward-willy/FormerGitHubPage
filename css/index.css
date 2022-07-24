@@ -1,7 +1,7 @@
 section.backImage {
   min-height: 85vh;
   width: 100%;
-  background-image: url("../img/drawing.JPG");
+  background-image: url("../img/drawing.png");
   background-size: cover;
   background-position: center;
   position: relative;
